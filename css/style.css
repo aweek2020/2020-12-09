@@ -1,0 +1,98 @@
+
+h2{font-family: 'Noto Sans KR', sans-serif; font-weight: 700; margin:0px;}
+
+
+.motiona {
+animation: motiona 3s infinite;}
+
+@keyframes motiona{
+  0% {opacity:100%; 
+    }
+  16% {opacity:100%;
+  	}  
+  17% {opacity:0%;
+  	}
+  100% {opacity:0%;
+  }
+}
+ .motionb {
+animation: motionb 3s infinite;}
+
+@keyframes motionb {
+  0% {opacity:0%; 
+    }
+  16% {opacity:0%;
+  	}  
+  17% {opacity:100%;
+  	}
+  33% {opacity:100%;
+  	}	
+  34% {opacity:0%;
+  	}
+  100% {opacity:0%;  
+  	}
+}
+  .motionc {
+animation: motionc 3s infinite;}
+
+@keyframes motionc {
+  0% {opacity:0%; 
+    }
+  33% {opacity:0%;
+  	}	
+  34% {opacity:100%;
+  	}
+  50% {opacity:100%;
+  	}
+  51% {opacity:0% 
+  	}	
+  100% {opacity:0%;  
+  	}
+ }
+  .motiond {
+animation: motiond 3s infinite;}
+
+@keyframes motiond {
+  0% {opacity:0%; 
+    }
+  50% {opacity:0%;
+  	}
+  51% {opacity:100%; 
+  	}
+  67% {opacity:100%;
+  	}
+  68% {opacity:0%;
+  	}		
+  100% {opacity:0%;  
+  	}		
+ } 
+  .motione {
+animation: motione 3s infinite;}
+
+@keyframes motione {
+  0% {opacity:0%; 
+    }
+  67% {opacity:0%;
+  	}
+  68% {opacity:100%;
+  	}
+  84% {opacity:100%
+  	}
+  85% {opacity:0%;
+    }				
+  100% {opacity:0%;  
+  	}					
+}
+  .motionf {
+animation: motionf 3s infinite;}
+
+@keyframes motionf {
+  0% {opacity:0%; 
+    }
+  84% {opacity:0%
+  	}
+  85% {opacity:100%;
+    }				
+  100% {opacity:100%;  
+  	}	
+}
